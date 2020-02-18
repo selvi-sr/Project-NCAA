@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Page Title -->
+        <title>Project 3 - NCAA Basketball</title>
+        <!-- Vendor Stylesheets -->
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
+        <!-- Theme Stylesheets -->
+        <link href="assets/css/theme.css" rel="stylesheet">
+        <link href="assets/vendor/aos/dist/aos.css" rel="stylesheet">
+    </head>
+
+    
+    <body>
+        <!-- NavBar start -->
+        <header class="spyre-navbar navbar navbar-expand-lg navbar-dark bg-secondary fixed-top align-items-center">
+            <div class="container-fliud">
+                <a class="navbar-brand mr-lg-5 mr-xl-7" href="index.html">NCAA Basketball</a>
+        
+                <div class="search d-none d-lg-flex justify-content-end ml-auto mr-2">
+                    <input class="form-control mr-2" type="text">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+        
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="cross">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Spyrenav Overlay -->
+            <div class="spyre-navbar-overlay overlay-slide">
+                <div class="container-fliud">
+                    <div class="row">
+                        <div class="spyre-navbar-nav-container col-md-6 col-lg-5 col-xl-4 bg-white ext-l">
+                            <nav class="spyre-navbar-nav">
+                                <ul class="spyre-nav">
+                                    <li class="spyre-nav-item"><a href="index.html" class="spyre-nav-link">HOME</a></li>
+                                    <li class="spyre-nav-item dropdown">
+                                        <a href="#" class="spyre-nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visuals</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            ...
+                                            <li class="dropdown-menu-item"><a href="map.html" class="dropdown-menu-link">Tableau - Map</a></li>
+                                            <li class="dropdown-menu-item"><a href="score_distro.html" class="dropdown-menu-link">Tableau - Score Distribution</a></li>
+                                            <li class="dropdown-menu-item"><a href="3_pt_stats.html" class="dropdown-menu-link">Tableau - 3 Point Stats</a></li>
+                                            <li class="dropdown-menu-item"><a href="shot_chart.html" class="dropdown-menu-link">Shot Charts</a></li>
+                                            <li class="dropdown-menu-item"><a href="machine_learning.html" class="dropdown-menu-link">Machine Learning Analysis</a></li>
+                                            <li class="dropdown-menu-item"><a href="error.html" class="dropdown-menu-link">Error Plot</a></li>
+                                            ...
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+        
+                        <div class="col-lg-7 col-xl-8 d-none d-md-block">
+                            <div class="d-flex flex-column h-100">
+                                <!-- Social links -->
+                                <div class="mt-auto ml-auto">
+                                    <ul class="nav flex-nowrap">
+                                        ...
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-twitter text-white"></i>
+                                            </a>
+                                        </li>
+                                        ...
+                                    </ul>
+                                </div>
+                            <!-- End of Social links -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Spyrenav Overlay -->
+        </header>
+        <!-- <section> -->
+            <section class="py-0 overflow-hidden text-center">
+                <div class="bg-container overlay parallax" data-rellax-percentage="0.5" style="background-image: url(assets/img/ncaa2.jpg)"></div>
+                <div class="container">
+                    <div class="row h-100vh align-items-center">
+                        <div class="col">
+                            <h1 class="text-white text-uppercase fs-4 fs-lg-6">NCAA Basketball - Project 3</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                
+        <main class="main minh-100vh">
+            
+        <!-- About Project Portion -->
+        <section class="pb-0">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 mb-7 mb-lg-0">
+                        <h3 class="my-0 fs-1 fw-medium text-secondary text-uppercase">ABOUT</h3>
+                        <h2 class="mb-5 fw-medium text-primary text-uppercase">PROJECT MADNESS</h2>
+                        <p class="mb-4">We chose to utilize the Men's NCAA Basketball Kaggle dataset for this project.</p>
+                        <p>The original data set was quite large as it included a wide variery of stats for the 68-team national championship from 2003 thru 2018. 
+                            We chose to limit our analysis range to 2013 thru 2018 in order to provide better predictability in our model. We additionally found that while the dataset gave information on teams in the championship, we were unable to drill down to an individual player level for a shot analysis.
+                            We did have to use an additional NBA dataset to find similarities in player shots.</p>
+                        <a href="https://www.kaggle.com/c/mens-machine-learning-competition-2019/data" class="btn btn-primary btn-lg mt-4 px-6">DATA SET<i class="zmdi zmdi-link ml-3"></i></a>
+                    </div>
+                    <div class="col-lg-4">
+                            <h3 class="my-0 fs-1 fw-medium text-secondary text-uppercase">Used</h3>
+                            <h2 class="mb-5 fw-medium text-primary text-uppercase"> Resources</h2>
+                            <ul class='list-unstyled mb-5'>
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">01</span>API</li> 
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">02</span>HTML/CSS/Bootstrap</li> 
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">03</span>Python Matplotlib</li>
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">04</span>Python Pandas</li>
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">05</span>Seaborn </li>
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">06</span>Scikit-Learn</li>
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">07</span>Tableau</li>
+                                <li class="mb-1"><span class="h6 text-primary fw-bold mr-3">08</span>Tensor Flow</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about us -->
+    <!-- start the team -->
+    <section class="py-0 overflow-hidden text-center">
+        <div class="bg-container overlay parallax" data-rellax-percentage="0.5" style="background-image: url(assets/img/backgrounds/bg-05.jpg)"></div>
+        <div class="container">
+            <div class="row h-100vh align-items-center">
+                <div class="col">
+                    <h1 class="text-white text-uppercase fs-4 fs-lg-6">The Team</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <div class = "col-md-12">
+        <div data-aos="fade-up" data-aos-delay='25' data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
+            <Section class="row m-md-5">
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="px-3x mt-neg-4">
+                            <img src="assets/img/photos/janita.png" class="card-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title mb-0 text-uppercase">Janita Brock</h6>
+                            <p class="card-text mb-3 fs--1 text-primary">HTML/CSS/Bootstrap & Shot Charts</p>
+                            <p class="card-text fs--1"> Created Infrastrucutre for visuals, utilized Matplotlib/Pandas/Seaborn to create court plot and hexbin visuals </p>
+                        </div>
+                
+                    </div>
+                </div>
+    
+                <div class="col-md-2">
+                    <div class="card">
+                        
+                        <div class="px-3 mt-neg-4">
+                            <img src="assets/img/photos/ola.png" class="card-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title mb-0 text-uppercase">Ola Browne</h6>
+                            <p class="card-text mb-3 fs--1 text-primary">Score Distribution</p>
+                            <p class="card-text fs--1">Utilized Tableau to find score distribution between wins and losses on any given team</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="px-3 mt-neg-4">
+                            <img src="assets/img/photos/parul.png" class="card-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title mb-0 text-uppercase">Parul Garg</h6>
+                            <p class="card-text mb-3 fs--1 text-primary"> Shot Charts & Machine Learning</p>
+                            <p class="card-text fs--1">Utilized Matplotlib/Pandas/Seaborn to create court plot and hexbin visuals along with working on machine learning for winning predictions</p>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- </Section> -->
+            <!-- <Section class="row"> -->
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="px-3 mt-neg-4">
+                            <img src="assets/img/photos/reza.png" class="card-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title mb-0 text-uppercase">Reza Gharahgozly</h6>
+                            <p class="card-text mb-3 fs--1 text-primary">Map</p>
+                            <p class="card-text fs--1">Using Tableau to have a visualization between rankings of teams and their scores in a map.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="px-3 mt-neg-4">
+                            <img src="assets/img/photos/sandy.png" class="card-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title mb-0 text-uppercase">Sandy Lake</h6>
+                            <p class="card-text mb-3 fs--1 text-primary">Three Point Stats & Story</p>
+                            <p class="card-text fs--1">Utilized Tableau to create visuals showing a variety of three point analysis and created story for project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="px-3 mt-neg-4">
+                            <img src="assets/img/photos/selvi.png" class="card-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title mb-0 text-uppercase">Selvi Ramalingam</h6>
+                            <p class="card-text mb-3 fs--1 text-primary">Machine Learning, Error Plot, & Score Distribution</p>
+                            <p class="card-text fs--1"> Worked on machine learning for winning predictions, created error plot and score distribution utilizing Tableau</p>
+                        </div>
+                    </div>
+                </div>
+           
+            </Section>
+        </div>
+        </div>
+        </main>
+        <!-- End of Main Content -->
+        
+
+
+        <!-- Core Javascripts -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Vendor Javascripts -->
+        <script src="assets/vendor/rellax/rellax.min.js"></script>
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <script src="assets/vendor/aos/dist/aos.js"></script>
+
+        <!-- Theme Javascripts -->
+        <script src="assets/js/theme.js"></script>
+    </body>
+</html>

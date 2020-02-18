@@ -1,0 +1,53 @@
+{
+  "name": "spyre",
+  "version": "1.0.0",
+  "description": "Spyre - Slick contemporary multipurpose theme",
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "bootstrap",
+    "webinning",
+    "theme",
+    "spyre"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "pages/assets/css/spyre.css",
+  "sass": "scss/spyre.scss",
+  "main": "pages/js/spyre",
+  "author": "Webinning Ltd. (https://webinning.co.uk)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "bluebird": "^3.5.3",
+    "browser-sync": "^2.26.7",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-scss": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-wait": "0.0.2",
+    "postcss-css-variables": "^0.11.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
